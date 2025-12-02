@@ -1,0 +1,13 @@
+# Folder upload foto mahasiswa
+uploads/*
+
+# File sistem yang tidak perlu di repo
+.DS_Store
+Thumbs.db
+
+# Konfigurasi editor/IDE
+.vscode/
+.idea/
+
+# Cache PHP atau file sementara
+*.cache
