@@ -1,0 +1,74 @@
+/* Tampilan dasar halaman */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9fafb;
+  color: #333;
+}
+
+header {
+  padding: 15px;
+  background: #e0e7ff;
+  border-bottom: 1px solid #cbd5e1;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Navigasi menu */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: #1e293b;
+}
+nav ul li {
+  margin: 0 12px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #f97316;
+}
+
+/* Tabel data */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+th, td {
+  border: 1px solid #cbd5e1;
+  padding: 8px;
+}
+th {
+  background: #f1f5f9;
+}
+
+/* Form input */
+form .row {
+  margin-bottom: 12px;
+}
+label {
+  display: inline-block;
+  width: 140px;
+}
+input, select {
+  padding: 6px;
+  width: 280px;
+}
+button {
+  padding: 8px 14px;
+  background: #1e293b;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #f97316;
+}
