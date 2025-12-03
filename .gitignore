@@ -1,6 +1,8 @@
 # Folder upload foto mahasiswa
-uploads/*
+/uploads/*
+!/uploads/.gitkeep
 
+#uploads/
 # File sistem yang tidak perlu di repo
 .DS_Store
 Thumbs.db
