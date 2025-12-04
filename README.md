@@ -9,7 +9,7 @@ Mendukung input teks, angka, pilihan, dan upload foto dengan validasi:
 - Path file disimpan di database
 
 ## Teknologi
-- PHP 8.x
+- PHP 8.4.13
 - MySQL/MariaDB
 - PDO (PHP Data Objects)
 - Server bawaan PHP (`php -S localhost:8000`)
